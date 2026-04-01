@@ -7,11 +7,11 @@ import {
 import Image from "next/image";
 
 // Components
+// Change these lines:
 import Carousel from "@/components/Carousel";
 import VehicleSlider from "@/components/VehicleSlider";
 import BookingBox from "@/components/BookingBox";
 
-// 1. වාහන දත්ත සඳහා Interface එක
 interface Vehicle {
   id: string;
   name: string;
